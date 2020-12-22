@@ -29,3 +29,38 @@ This is a simple REST API for users
 
 That returns a list of resources
 
+
+### GET a user by id
+
+```
+{"success":true,
+  { "id":1
+    "username":"user",
+    "email":"user@test.com",
+     "password":"password"
+  }
+
+}
+
+```
+
+This returns a user with an ID
+
+### DELETE a user by ID
+
+```
+{
+    "message": "User Deleted",
+    "success": true,
+    "user": {
+        "email": "user@test.com",
+        "id": 2,
+        "password": "password",
+        "username": "user"
+    }
+}
+
+
+
+
+`i``
